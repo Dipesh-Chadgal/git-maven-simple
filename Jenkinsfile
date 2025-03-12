@@ -5,7 +5,7 @@ pipeline {
 		
 		stage('Checkout Code'){
 			steps{
-				git ''
+				git 'https://github.com/Dipesh-Chadgal/git-maven-simple.git'
 			}
 		}
 		stage('Build'){
